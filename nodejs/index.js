@@ -11,6 +11,6 @@ app.get('/', (req, res) => {
   res.send('Hello, Docker!');
 });
 
-app.listen(port, host, () => {
-  console.log(`Server running at http://${host}:${port}`);
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Server running on http://${host}:${port}`);
 });
