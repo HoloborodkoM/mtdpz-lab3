@@ -20,7 +20,7 @@ def matrix() -> dict:
 
         "matrix_a": matrix_a.tolist(),
         "matrix_b": matrix_b.tolist(),
-        "product": product.toList()
+        "product": product.tolist()
 
     }
 
