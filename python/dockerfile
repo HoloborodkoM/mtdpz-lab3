@@ -1,6 +1,4 @@
-FROM python:3.10-alpine
-
-RUN apk add --no-cache lapack-dev g++ musl-dev
+FROM python:3.10-buster
 
 WORKDIR /app
 
